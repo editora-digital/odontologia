@@ -19,15 +19,23 @@ h1{
   font-weight: 900;
 }
 /* tasks */
+
 .tasks{
-  width: 500px;
-  height: 405px;
-  position: absolute;
-  top: 20%;
-  left: 0px; 
-  right: 0px;
-  margin: 0px auto;
+    width: 500px;
+    height: 405px;
+    position: absolute;
+    top: 20%;
+    left: 0px; 
+    right: 0px;
+    margin: 0px auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .tasks{
+    width: 95%;
+  }
+}
+
 input[type=checkbox] {
   display: none;
 }
